@@ -13,12 +13,14 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+/* Navigation Start here style*/
 .header {
   padding-left: 156px;
   padding-right: 156px;
   display: flex;
 }
-.list_default {
+.default-list {
   margin-top: 0px;
   text-align: center;
   list-style: none;
@@ -28,14 +30,15 @@ body {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+
 }
-.default_link {
+.default-link {
   text-decoration: none;
   flex-wrap: wrap;
   margin-top: 0px;
 }
 .logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17em;
@@ -44,6 +47,7 @@ body {
   color: #4d5ae5;
   list-style: none;
   text-align: center;
+  padding-right: px;
 }
 .studio {
   color: #2e2f42;
@@ -63,7 +67,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--brand-color);
-  padding: 40px;
+  padding-right: 40px;
 }
 .link:hover,
 .link:focus {
@@ -86,6 +90,8 @@ body {
   color: #404bbf;
   cursor: pointer;
 }
+
+/*Main Style/Section1 Start here style*/
 .main {
   background-color: #2e2f42;
   height: 600px;
@@ -106,6 +112,7 @@ body {
   margin-right: auto;
 }
 .main_button {
+  font-family: 'Roboto', sans-serif;
   display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
@@ -119,24 +126,34 @@ body {
   letter-spacing: 0.64px;
   border-radius: 4px;
 }
+.main_button:hover, .main_button:focus{
+  background-color: #404BBF;
+}
+
+/*Section2 Style Start here style*/
 .section2_ul {
   display: inline-flex;
   text-align: left;
+  list-style: none;
+  
 }
-.section2_list {
-  font-size: 20px;
+.section2-header{
+  list-style: none;
   font-weight: 500;
+  font-size: 20px;
   line-height: 1.2em;
   letter-spacing: 0.02em;
-  list-style: none;
   color: var(--brand-color);
 }
 .section2_p {
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* Section3 Start here style*/
 .section3 {
   text-align: center;
   font-size: 36px;
@@ -146,11 +163,19 @@ body {
   text-transform: capitalize;
   list-style: none;
   color: #2e2f42;
+  flex-direction: column;
+  gap: 24px;
+}
+.section3-header{
+  font-size: 36px;
+  line-height: 1.11em;
 }
 .section4 {
   background-color: #f4f4fd;
   height: 732px;
 }
+
+/*Section4 Start here style*/
 .section4_list {
   display: inline-flex;
   padding-bottom: 0px;
@@ -168,6 +193,8 @@ body {
   line-height: 1.2em;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin: 0px;
+  padding: 0px;
 }
 .section4_p {
   text-align: center;
@@ -177,7 +204,11 @@ body {
   line-height: 1.5em;
   letter-spacing: 0.02em;
   color: #434455;
+  margin: 0px;
+  padding: 0px;
 }
+
+/*Footer Start here style*/
 .footer {
   background: #2e2f42;
   height: 312px;
@@ -186,11 +217,13 @@ body {
 }
 .footer_logo {
   text-decoration: none;
+  color:#4d5ae5;
 }
 .footer_studio {
   color: #f4f4fd;
 }
 .footer_text {
+  font-family: 'Raleway', sans-serif;
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
@@ -201,20 +234,23 @@ body {
 
 /* portfolio style */
 
+.portfolio-header{
+  font-size: 36px;
+  line-height: 1.11em;
+  width: 100%;
+}
 .portfolio_button {
+  font-family: 'Roboto', sans-serif;
   display: flex;
-  padding: 12px 24px;
-
-  align-items: center;
   color: var(--text-color);
   background-color: var(--background-color);
+  padding: 12px 24px;
+  align-items: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.04em;
   margin-left: 24px;
-  justify-content: center;
-  display: inline;
 }
 .portfolio_button:hover,
 .portfolio_button:focus {
@@ -226,19 +262,19 @@ body {
   text-decoration: none;
   display: inline;
   margin-left: 24px;
+  text-align: left;
 }
 .portfolio_header {
+  color: var(--brand-color);
   font-weight: 500;
   font-size: 20px;
-  font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.2em;
-  color: var(--brand-color);
 }
 .portfolio_p {
+  color: var(--paragraph-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.02em;
-  color: var(--paragraph-color);
 }
