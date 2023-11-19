@@ -41,6 +41,9 @@ body {
 .default-list {
   list-style: none;
 }
+.default-link {
+  text-decoration: none;
+}
 
 .link:hover,
 .link:focus {
