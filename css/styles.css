@@ -15,22 +15,15 @@ body {
 }
 
 /* Navigation Start here style*/
-.header {
-  padding-left: 156px;
-  padding-right: 156px;
-  display: flex;
-}
+
 .default-list {
   margin-top: 0px;
   text-align: center;
   list-style: none;
-  display: inline-flex;
   flex-wrap: wrap;
-  padding-bottom: 0px;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-
 }
 .default-link {
   text-decoration: none;
@@ -46,8 +39,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   list-style: none;
-  text-align: center;
-  padding-right: px;
 }
 .studio {
   color: #2e2f42;
@@ -59,7 +50,6 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   flex-shrink: 0;
-  display: inline-flex;
 }
 .link {
   text-decoration: none;
@@ -67,7 +57,6 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--brand-color);
-  padding-right: 40px;
 }
 .link:hover,
 .link:focus {
@@ -77,16 +66,15 @@ body {
 .contact {
   font-style: normal;
 }
-.contact_value {
+.contact-value {
   font-size: 16px;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
   color: #434455;
-  padding: 40px;
 }
-.contact_value:hover,
-.contact_value:focus {
+.contact-value:hover,
+.contact-value:focus {
   color: #404bbf;
   cursor: pointer;
 }
@@ -96,27 +84,20 @@ body {
   background-color: #2e2f42;
   height: 600px;
   text-align: center;
-  border: solid #2e2f42 1px;
 }
-.main_text {
+.main-text {
   color: #ffffff;
-  text-align: center;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.07em;
   letter-spacing: 0.02em;
-  width: 496px;
-  padding-top: 188px;
   margin-left: auto;
   margin-right: auto;
 }
-.main_button {
+.main-button {
   font-family: 'Roboto', sans-serif;
-  display: inline-flex;
-  padding: 16px 32px;
   align-items: flex-start;
-  gap: 10px;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -124,20 +105,18 @@ body {
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.64px;
-  border-radius: 4px;
 }
-.main_button:hover, .main_button:focus{
-  background-color: #404BBF;
+.main-button:hover,
+.main-button:focus {
+  background-color: #404bbf;
 }
 
 /*Section2 Style Start here style*/
-.section2_ul {
-  display: inline-flex;
+.section2-ul {
   text-align: left;
   list-style: none;
-  
 }
-.section2-header{
+.section2-header {
   list-style: none;
   font-weight: 500;
   font-size: 20px;
@@ -145,7 +124,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--brand-color);
 }
-.section2_p {
+.section2-p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
@@ -163,10 +142,8 @@ body {
   text-transform: capitalize;
   list-style: none;
   color: #2e2f42;
-  flex-direction: column;
-  gap: 24px;
 }
-.section3-header{
+.section3-header {
   font-size: 36px;
   line-height: 1.11em;
 }
@@ -177,15 +154,9 @@ body {
 
 /*Section4 Start here style*/
 .section4_list {
-  display: inline-flex;
-  padding-bottom: 0px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
   background-color: #ffffff;
 }
-.section4_header {
+.section4-header {
   text-align: center;
   font-size: 20px;
   font-style: normal;
@@ -193,10 +164,8 @@ body {
   line-height: 1.2em;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 0px;
-  padding: 0px;
 }
-.section4_p {
+.section4-p {
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -204,74 +173,64 @@ body {
   line-height: 1.5em;
   letter-spacing: 0.02em;
   color: #434455;
-  margin: 0px;
-  padding: 0px;
 }
 
 /*Footer Start here style*/
 .footer {
   background: #2e2f42;
   height: 312px;
-  padding-left: 156px;
-  padding-top: 101.5px;
 }
-.footer_logo {
+.footer-logo {
   text-decoration: none;
-  color:#4d5ae5;
+  color: #4d5ae5;
 }
-.footer_studio {
+.footer-studio {
   color: #f4f4fd;
 }
-.footer_text {
+.footer-text {
   font-family: 'Raleway', sans-serif;
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.02em;
-  width: 264px;
 }
 
 /* portfolio style */
 
-.portfolio-header{
+.portfolio-header {
   font-size: 36px;
   line-height: 1.11em;
-  width: 100%;
 }
-.portfolio_button {
+.portfolio-button {
   font-family: 'Roboto', sans-serif;
-  display: flex;
   color: var(--text-color);
   background-color: var(--background-color);
-  padding: 12px 24px;
-  align-items: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.04em;
   margin-left: 24px;
 }
-.portfolio_button:hover,
-.portfolio_button:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
   color: #ffffff;
   background-color: #404bbf;
   cursor: pointer;
 }
-.portfolio_list {
+.portfolio-list {
   text-decoration: none;
-  display: inline;
   margin-left: 24px;
   text-align: left;
 }
-.portfolio_header {
+.portfolio-header {
   color: var(--brand-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2em;
   letter-spacing: 0.2em;
 }
-.portfolio_p {
+.portfolio-p {
   color: var(--paragraph-color);
   font-size: 16px;
   font-weight: 400;
