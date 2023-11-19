@@ -8,81 +8,72 @@
   /* color: var(--background-color);*/
   /* color: var(--paragraph-color);*/
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 
-/* Navigation Start here style*/
-
-.default-list {
-  margin-top: 0px;
-  text-align: center;
-  list-style: none;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-.default-link {
-  text-decoration: none;
-  flex-wrap: wrap;
-  margin-top: 0px;
-}
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
   font-weight: 800;
+  font-size: 18px;
   line-height: 1.17em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--text-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.span {
+  color: var(--brand-color);
+}
+
+.default-list {
   list-style: none;
 }
-.studio {
-  color: #2e2f42;
-}
-.list {
-  list-style: none;
+
+.nav-button {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  flex-shrink: 0;
-}
-.link {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.02em;
   color: var(--brand-color);
 }
+
 .link:hover,
 .link:focus {
   color: #404bbf;
   cursor: pointer;
 }
-.contact {
+
+.address {
   font-style: normal;
 }
+
 .contact-value {
-  font-size: 16px;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--paragraph-color);
 }
+
 .contact-value:hover,
 .contact-value:focus {
   color: #404bbf;
   cursor: pointer;
 }
 
+/*      /////////////////////   */
+/* Navigation Start here style*/
+
 /*Main Style/Section1 Start here style*/
 .main {
   background-color: #2e2f42;
-  height: 600px;
   text-align: center;
 }
 .main-text {
@@ -149,7 +140,6 @@ body {
 }
 .section4 {
   background-color: #f4f4fd;
-  height: 732px;
 }
 
 /*Section4 Start here style*/
@@ -178,7 +168,6 @@ body {
 /*Footer Start here style*/
 .footer {
   background: #2e2f42;
-  height: 312px;
 }
 .footer-logo {
   text-decoration: none;
