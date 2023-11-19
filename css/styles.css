@@ -25,7 +25,7 @@ body {
   color: var(--text-color);
 }
 
-.link {
+.default-link {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
@@ -41,7 +41,7 @@ body {
 .default-list {
   list-style: none;
 }
-.default-link {
+.link {
   text-decoration: none;
 }
 
