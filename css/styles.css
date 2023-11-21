@@ -40,7 +40,8 @@ body {
 }
 
 .default-list,
-.link {
+.link,
+.portfolio-list {
   list-style: none;
 }
 
