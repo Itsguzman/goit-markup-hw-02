@@ -35,7 +35,7 @@ body {
   color: var(--brand-color);
 }
 
-.logo-span {
+.logo2 {
   color: var(--brand-color);
 }
 
@@ -99,7 +99,7 @@ body {
 }
 
 .section2-header,
-.section4-header {
+.section4-profile-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2em;
@@ -108,7 +108,7 @@ body {
 }
 
 .section2-p,
-.section4-p {
+.default-list .section4-p {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
@@ -117,7 +117,7 @@ body {
 }
 
 .section3-header,
-.section4-profile-header {
+.section4-header {
   font-size: 36px;
   line-height: 1.11em;
   letter-spacing: 0.02em;
@@ -125,20 +125,10 @@ body {
   color: var(--brand-color);
 }
 
-.section4-header {
-  text-align: center;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2em;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
 .section4 {
   background-color: var(--background-color);
 }
-.section4-list {
+.default-list .section4-list {
   background-color: #ffffff;
 }
 
