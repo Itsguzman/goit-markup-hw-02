@@ -35,14 +35,17 @@ body {
   color: var(--brand-color);
 }
 
-.logo2 {
+.logo .logo2 {
   color: var(--brand-color);
 }
 
 .default-list,
-.link,
 .portfolio-list {
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .link:hover,
@@ -70,10 +73,9 @@ body {
 
 .section1 {
   background-color: var(--brand-color);
-  text-align: center;
 }
 
-.section1-text {
+.section1 .section1-text {
   color: #ffffff;
   font-size: 56px;
   line-height: 1.07em;
@@ -82,7 +84,7 @@ body {
   font-style: normal;
 }
 
-.section1-button {
+.section1 .section1-button {
   background-color: var(--brand-color2);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
