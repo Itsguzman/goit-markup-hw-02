@@ -38,8 +38,11 @@ body {
   color: var(--brand-color);
 }
 
-.default-list,
 .portfolio-list {
+  list-style: none;
+}
+
+.default-list {
   list-style: none;
 }
 
