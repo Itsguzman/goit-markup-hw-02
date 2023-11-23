@@ -37,6 +37,9 @@ body {
 .header .logo2 {
   color: var(--brand-color);
 }
+.list {
+  list-style: none;
+}
 
 .portfolio-list {
   list-style: none;
