@@ -106,7 +106,7 @@ body {
   background-color: #404bbf;
 }
 
-.section2-header,
+.section-two-header,
 .section-fourth-profile-header {
   font-weight: 500;
   font-size: 20px;
@@ -115,7 +115,7 @@ body {
   color: var(--brand-color);
 }
 
-.section2-p,
+.section-two-p,
 .section-fourth-p {
   font-size: 16px;
   line-height: 1.5em;
@@ -166,11 +166,11 @@ body {
 
 /* portfolio page start here */
 
-.portfolio1-header {
+.portfolio-one-header {
   font-size: 36px;
   line-height: 1.11em;
 }
-.portfolio1-button {
+.portfolio-one-button {
   font-family: 'Roboto', sans-serif;
   color: var(--brand-color2);
   background-color: var(--background-color);
@@ -181,8 +181,8 @@ body {
   margin-left: 24px;
 }
 
-.portfolio1-button:hover,
-.portfolio1-button:focus {
+.portfolio-one-button:hover,
+.portfolio-one-button:focus {
   color: #ffffff;
   background-color: #404bbf;
   cursor: pointer;
