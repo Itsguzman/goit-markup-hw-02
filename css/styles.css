@@ -3,12 +3,14 @@
   --brand-color2: #4d5ae5;
   --background-color: #f4f4fd;
   --paragraph-color: #434455;
+  --click-color: #404bbf;
+  --white-color:#ffffff;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 .logo {
@@ -29,7 +31,7 @@ body {
   color: var(--brand-color);
 }
 
-.header .logo2 {
+.logo-two {
   color: var(--brand-color);
 }
 
@@ -46,7 +48,7 @@ body {
 
 .link:hover,
 .link:focus {
-  color: #404bbf;
+  color: var(--click-color);
   cursor: pointer;
 }
 
@@ -63,7 +65,7 @@ body {
 
 .contact-value:hover,
 .contact-value:focus {
-  color: #404bbf;
+  color: var(--click-color);
   cursor: pointer;
 }
 
@@ -72,7 +74,7 @@ body {
 }
 
 .section-first .section-first-text {
-  color: #ffffff;
+  color: var(--white-color);
   font-size: 56px;
   line-height: 1.07em;
   text-align: center;
@@ -87,13 +89,13 @@ body {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--white-color);
   cursor: pointer;
 }
 
 .section-first-button:hover,
 .section-first-button:focus {
-  background-color: #404bbf;
+  background-color: var(--click-color);
 }
 
 .section-two-header,
@@ -128,26 +130,26 @@ body {
   background-color: var(--background-color);
 }
 .section-fourth-list {
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 /*Footer Start here style*/
 .footer {
-  background: #2e2f42;
+  background: var(--brand-color);
 }
 
 .footer-logo {
   text-decoration: none;
-  color: #4d5ae5;
+  color: var(--brand-color2);
 }
 
 .footer-studio {
-  color: #f4f4fd;
+  color: var(--background-color);
 }
 
 .footer-text {
   font-family: 'Raleway', sans-serif;
-  color: #f4f4fd;
+  color: var(--background-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
@@ -155,7 +157,6 @@ body {
 }
 
 /* portfolio page start here */
-
 .portfolio-one-header {
   font-size: 36px;
   line-height: 1.11em;
@@ -173,8 +174,8 @@ body {
 
 .portfolio-one-button:hover,
 .portfolio-one-button:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--white-color);
+  background-color: var(--click-color);
   cursor: pointer;
 }
 
