@@ -3,11 +3,6 @@
   --brand-color2: #4d5ae5;
   --background-color: #f4f4fd;
   --paragraph-color: #434455;
-
-  /* color: var(--brand-color);*/
-  /* color: var(--brand-color2);*/
-  /* color: var(--background-color);*/
-  /* color: var(--paragraph-color);*/
 }
 
 body {
@@ -37,15 +32,10 @@ body {
 .header .logo2 {
   color: var(--brand-color);
 }
-.list {
-  list-style: none;
-}
 
+.default-list,
+.list,
 .portfolio-list {
-  list-style: none;
-}
-
-.default-list {
   list-style: none;
 }
 
@@ -191,7 +181,7 @@ body {
 .portfolio-options {
   text-align: none;
 }
-.portfolio2-header {
+.portfolio-two-header {
   color: var(--brand-color);
   font-weight: 500;
   font-size: 20px;
@@ -199,7 +189,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.portfolio2-paragraph {
+.portfolio-two-paragraph {
   color: var(--paragraph-color);
   font-size: 16px;
   font-weight: 400;
