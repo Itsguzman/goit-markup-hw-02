@@ -77,11 +77,11 @@ body {
   cursor: pointer;
 }
 
-.section1 {
+.section-first {
   background-color: var(--brand-color);
 }
 
-.section1 .section1-text {
+.section-first .section-first-text {
   color: #ffffff;
   font-size: 56px;
   line-height: 1.07em;
@@ -90,7 +90,7 @@ body {
   font-style: normal;
 }
 
-.section1 .section1-button {
+.section-first .section-first-button {
   background-color: var(--brand-color2);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -101,13 +101,13 @@ body {
   cursor: pointer;
 }
 
-.section1-button:hover,
-.section1-button:focus {
+.section-first-button:hover,
+.section-first-button:focus {
   background-color: #404bbf;
 }
 
 .section2-header,
-.section4-profile-header {
+.section-fourth-profile-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2em;
@@ -116,7 +116,7 @@ body {
 }
 
 .section2-p,
-.default-list .section4-p {
+.section-fourth-p {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
@@ -124,8 +124,8 @@ body {
   color: var(--paragraph-color);
 }
 
-.section3-header,
-.section4-header {
+.section-third-header,
+.section-fourth-header {
   font-size: 36px;
   line-height: 1.11em;
   letter-spacing: 0.02em;
@@ -134,10 +134,10 @@ body {
   color: var(--brand-color);
 }
 
-.section4 {
+.section-fourth {
   background-color: var(--background-color);
 }
-.default-list .section4-list {
+.section-fourth-list {
   background-color: #ffffff;
 }
 
